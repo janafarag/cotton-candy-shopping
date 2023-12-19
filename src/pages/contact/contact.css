@@ -1,0 +1,28 @@
+.contactTitle {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 32px;
+  }
+  .contactImage {
+    border-radius: 15px;
+    width: 180px;
+    height: 100px;
+    margin: 200px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+  }
+  .contactAddr {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 15x;
+  }
+  .contactAddr2 {
+    text-align: center;
+    font-size: 15px;
+  }
+  .contactNum{
+    text-align: center;
+    font-size: 14px;
+  }
