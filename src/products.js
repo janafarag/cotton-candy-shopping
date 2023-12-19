@@ -3,7 +3,7 @@ import product2 from "./assets/products/2.jpeg";
 import product3 from "./assets/products/3.png";
 import product4 from "./assets/products/4.jpg";
 import product5 from "./assets/products/5.jpg";
-import product6 from "./assets/products/66.jpg";
+import product6 from "./assets/products/6.jpg";
 import product7 from "./assets/products/7.jpg";
 import product8 from "./assets/products/8.jpg";
 import product9 from "./assets/products/9.jpg";
