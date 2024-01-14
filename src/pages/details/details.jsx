@@ -24,7 +24,7 @@ export const Details = () => {
     const totalAmount = getTotalCartAmount();
 
 
-    const apiGateway = process.env.REACT_APP_API_GATEWAY;
+    const apiGateway = window.REACT_APP_API_GATEWAY;
     const orderUrl = `${apiGateway}/order`
 
 
