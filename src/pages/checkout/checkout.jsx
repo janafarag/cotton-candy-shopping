@@ -3,7 +3,13 @@ import "./checkout.css";
 import orderImg from "../../assets/products/order.jpg";
 import curtains from "../../assets/products/curtains_hand.png";
 
+
+
 export const Checkout = () => {
+
+    const apiGateway = process.env.REACT_APP_API_GATEWAY;
+    const redirectUrl = `${apiGateway}/jolly`;
+
   return (
     <div className="checkout">
       <div className="checkoutImage">
@@ -22,7 +28,7 @@ export const Checkout = () => {
             </div>
 
             <div className="checkoutText">
-            <h2><a href="https://www.youtube.com/shorts/SI8ZkvSN_3w" target="_blank" rel="noopener noreferrer">
+            <h2><a href={redirectUrl} target="_blank" rel="noopener noreferrer">
             Click me
             </a></h2>
             </div> 
